@@ -1,3 +1,35 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(12, 7, 7);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+
+
+
+
 #hid{
     color: rgb(213, 243, 105);
     text-align: center;
@@ -10,14 +42,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 #mn{
-    color: red;
+    color: rgb(7, 6, 6);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .container{
-    background-color: black;
+    background-color: rgb(243, 36, 70);
     width: 800px;
     height: 350px;
     
@@ -36,7 +68,7 @@ button{
     color: white;
     cursor: pointer;
     padding: 14px 20px;
-    margin-top: 35px;
+    margin-top: 40px;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 #qw{
@@ -55,4 +87,24 @@ button{
 #nm{
     text-align: center;
     margin-top: 20px;
+}
+::placeholder{
+    color: rgb(18, 19, 19);
+    background-color: rgb(192, 187, 188);
+    cursor: pointer;
+}
+
+
+h1:hover{
+    color: #111;
+
+}
+h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+input{
+    border: 2px solid red;
+    align-content: center;
+    
 }
